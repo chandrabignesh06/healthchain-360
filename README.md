@@ -325,7 +325,7 @@ This project is licensed under the MIT License.
 - Avishek Kumar Dutta
 - Sreejita Ghatak
 
-#  Author
+#  Authors
 
 **Bignesh Chandra**
 
@@ -333,6 +333,13 @@ Computer Science & Engineering (Data Science)
 Haldia Institute of Technology
 
  Email: chandrabignesh0608@gmail.com
+
+ **Vidya Das**
+
+ Computer Science & Engineering (Data Science)  
+ Haldia Institute of Technology
+
+  Email: kumari.vidya2007@gmail.com
 
 🔗 GitHub: https://github.com/chandrabignesh06
 
