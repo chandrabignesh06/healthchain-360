@@ -1,0 +1,2631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="HealthChain 360 — AI-powered smart healthcare supply chain resilience platform."
+    >
+
+    <title>
+        HealthChain 360 | Smart Health & Supply Chain Resilience
+    </title>
+
+    <!-- =====================================================
+         FONTS
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- =====================================================
+         FONT AWESOME
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- =====================================================
+         MAIN CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+<!-- =========================================================
+     LOADING SCREEN
+========================================================= -->
+
+<div
+    class="loader"
+    id="loader"
+>
+
+    <div class="loader-inner">
+
+        <div class="loader-orbit">
+
+            <div class="loader-core">
+                <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+
+        </div>
+
+        <h2>
+            HEALTHCHAIN <span>360</span>
+        </h2>
+
+        <p>
+            Initializing global healthcare network...
+        </p>
+
+        <div class="loader-progress">
+            <div id="loaderProgress"></div>
+        </div>
+
+        <small>
+            SECURE AI INFRASTRUCTURE
+        </small>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     BACKGROUND
+========================================================= -->
+
+<div class="background-grid"></div>
+
+<div class="background-glow glow-one"></div>
+<div class="background-glow glow-two"></div>
+
+
+<!-- =========================================================
+     NAVIGATION
+========================================================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a
+            href="#top"
+            class="brand"
+        >
+
+            <div class="brand-icon">
+                <i class="fa-solid fa-heart-pulse"></i>
+            </div>
+
+            <div class="brand-text">
+
+                <strong>
+                    HEALTHCHAIN
+                    <span>360</span>
+                </strong>
+
+                <small>
+                    SMART HEALTH • RESILIENT SUPPLY
+                </small>
+
+            </div>
+
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a
+                href="#top"
+                class="active"
+            >
+                Overview
+            </a>
+
+            <a href="#network">
+                Supply Network
+            </a>
+
+            <a href="#analytics">
+                Analytics
+            </a>
+
+            <a href="#alerts">
+                Alerts
+            </a>
+
+        </nav>
+
+
+        <div class="nav-actions">
+
+            <div class="system-status">
+
+                <span></span>
+
+                SYSTEM ONLINE
+
+            </div>
+
+            <button
+                class="nav-menu"
+                id="navMenu"
+                aria-label="Open menu"
+            >
+
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     MOBILE NAVIGATION
+========================================================= -->
+
+<div
+    class="mobile-menu"
+    id="mobileMenu"
+>
+
+    <a href="#top">
+        Overview
+    </a>
+
+    <a href="#network">
+        Supply Network
+    </a>
+
+    <a href="#analytics">
+        Analytics
+    </a>
+
+    <a href="#alerts">
+        Alerts
+    </a>
+
+</div>
+
+
+<!-- =========================================================
+     MAIN
+========================================================= -->
+
+<main id="top">
+
+
+<!-- =========================================================
+     HERO
+========================================================= -->
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <div class="hero-eyebrow">
+
+            <span class="eyebrow-dot"></span>
+
+            GLOBAL HEALTHCARE DIGITAL TWIN
+
+            <span class="eyebrow-live">
+                LIVE
+            </span>
+
+        </div>
+
+
+        <h1>
+
+            Smart Health.
+
+            <span>
+                Resilient Supply.
+            </span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            An AI-powered healthcare intelligence platform
+            that monitors supply networks, predicts disruptions,
+            and orchestrates resilient responses before patients
+            are impacted.
+
+        </p>
+
+
+        <div class="hero-actions">
+
+            <a
+                href="#network"
+                class="btn btn-primary"
+            >
+
+                <i class="fa-solid fa-globe"></i>
+
+                Explore Network
+
+            </a>
+
+
+            <button
+                class="btn btn-secondary"
+                id="simulateCrisisBtn"
+            >
+
+                <i class="fa-solid fa-bolt"></i>
+
+                Simulate Crisis
+
+            </button>
+
+        </div>
+
+
+        <div class="hero-stats">
+
+            <div class="hero-stat">
+
+                <strong>
+                    284
+                </strong>
+
+                <span>
+                    HEALTHCARE NODES
+                </span>
+
+            </div>
+
+
+            <div class="hero-stat">
+
+                <strong>
+                    142
+                </strong>
+
+                <span>
+                    ACTIVE ROUTES
+                </span>
+
+            </div>
+
+
+            <div class="hero-stat">
+
+                <strong>
+                    1,284
+                </strong>
+
+                <span>
+                    LIVE SHIPMENTS
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         GLOBE
+    ====================================================== -->
+
+    <div class="hero-visual">
+
+        <div class="globe-hud hud-top">
+
+            <span>
+                GLOBAL NETWORK
+            </span>
+
+            <strong>
+                LIVE
+            </strong>
+
+        </div>
+
+
+        <div
+            class="globe-container"
+            id="globe-container"
+        ></div>
+
+
+        <!-- Globe Controls -->
+
+        <div class="globe-controls">
+
+            <button
+                id="globalViewBtn"
+                class="globe-control active"
+            >
+                <i class="fa-solid fa-earth-americas"></i>
+                Global
+            </button>
+
+            <button
+                id="indiaViewBtn"
+                class="globe-control"
+            >
+                <i class="fa-solid fa-location-dot"></i>
+                India
+            </button>
+
+        </div>
+
+
+        <!-- Live HUD -->
+
+        <div class="globe-hud hud-left">
+
+            <div>
+
+                <span>
+                    ACTIVE NODES
+                </span>
+
+                <strong>
+                    284
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    ACTIVE ROUTES
+                </span>
+
+                <strong>
+                    142
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="globe-hud hud-right">
+
+            <div>
+
+                <span>
+                    SHIPMENTS
+                </span>
+
+                <strong>
+                    1,284
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    HIGH RISK
+                </span>
+
+                <strong class="danger">
+                    07
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="globe-hint">
+
+            <i class="fa-solid fa-computer-mouse"></i>
+
+            DRAG TO ROTATE • SCROLL TO ZOOM
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     LIVE NETWORK STRIP
+========================================================= -->
+
+<section class="network-strip">
+
+    <div class="network-strip-inner">
+
+        <div class="network-live">
+
+            <span></span>
+
+            LIVE NETWORK
+
+        </div>
+
+
+        <div>
+            Mumbai → Kolkata
+            <strong>● 420 units</strong>
+        </div>
+
+
+        <div>
+            Delhi → Bengaluru
+            <strong>● 280 units</strong>
+        </div>
+
+
+        <div>
+            Hyderabad → Chennai
+            <strong>● 190 units</strong>
+        </div>
+
+
+        <div>
+            Mumbai → Delhi
+            <strong>● 394 units</strong>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     NETWORK SECTION
+========================================================= -->
+
+<section
+    class="section network-section"
+    id="network"
+>
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                01 / SUPPLY NETWORK
+            </span>
+
+            <h2>
+                A living map of
+                <span>healthcare logistics.</span>
+            </h2>
+
+        </div>
+
+
+        <p>
+
+            Monitor hospitals, warehouses, supply corridors,
+            and emerging risks across the healthcare ecosystem
+            in real time.
+
+        </p>
+
+    </div>
+
+
+    <div class="network-dashboard">
+
+
+        <!-- Network Globe -->
+
+        <div class="network-globe-panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <span>
+                        GLOBAL HEALTH NETWORK
+                    </span>
+
+                    <strong>
+                        DIGITAL TWIN
+                    </strong>
+
+                </div>
+
+
+                <div class="panel-live">
+
+                    <span></span>
+
+                    LIVE
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="network-globe"
+                id="network-globe"
+            ></div>
+
+
+            <div class="network-legend">
+
+                <div>
+
+                    <span class="legend-dot hospital"></span>
+
+                    Hospitals
+
+                </div>
+
+
+                <div>
+
+                    <span class="legend-dot warehouse"></span>
+
+                    Warehouses
+
+                </div>
+
+
+                <div>
+
+                    <span class="legend-dot risk"></span>
+
+                    High Risk
+
+                </div>
+
+
+                <div>
+
+                    <span class="legend-line"></span>
+
+                    Supply Route
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Network Details -->
+
+        <div class="network-details">
+
+            <div class="network-detail-card">
+
+                <div class="detail-icon blue">
+
+                    <i class="fa-solid fa-hospital"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        HEALTHCARE NODES
+                    </span>
+
+                    <strong>
+                        284
+                    </strong>
+
+                    <small>
+                        Across 18 regions
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="network-detail-card">
+
+                <div class="detail-icon green">
+
+                    <i class="fa-solid fa-warehouse"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        DISTRIBUTION CENTERS
+                    </span>
+
+                    <strong>
+                        47
+                    </strong>
+
+                    <small>
+                        92% operational
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="network-detail-card">
+
+                <div class="detail-icon orange">
+
+                    <i class="fa-solid fa-truck-fast"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        ACTIVE SHIPMENTS
+                    </span>
+
+                    <strong>
+                        1,284
+                    </strong>
+
+                    <small>
+                        96.8% on schedule
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="network-detail-card danger-card">
+
+                <div class="detail-icon red">
+
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+
+                </div>
+
+                <div>
+
+                    <span>
+                        HIGH-RISK NODES
+                    </span>
+
+                    <strong>
+                        07
+                    </strong>
+
+                    <small>
+                        Requires attention
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <div class="shipment-card">
+
+                <div class="shipment-header">
+
+                    <div>
+
+                        <span>
+                            LIVE SHIPMENT
+                        </span>
+
+                        <strong>
+                            MUMBAI → KOLKATA
+                        </strong>
+
+                    </div>
+
+                    <span class="shipment-status">
+                        ON ROUTE
+                    </span>
+
+                </div>
+
+
+                <div class="shipment-route">
+
+                    <div class="route-node">
+
+                        <span></span>
+
+                        <strong>
+                            Mumbai
+                        </strong>
+
+                        <small>
+                            Origin
+                        </small>
+
+                    </div>
+
+
+                    <div class="route-line">
+
+                        <div class="route-particle"></div>
+
+                    </div>
+
+
+                    <div class="route-node">
+
+                        <span></span>
+
+                        <strong>
+                            Kolkata
+                        </strong>
+
+                        <small>
+                            Destination
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="shipment-meta">
+
+                    <div>
+
+                        <span>
+                            CARGO
+                        </span>
+
+                        <strong>
+                            Vaccines
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            UNITS
+                        </span>
+
+                        <strong>
+                            420
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            ETA
+                        </span>
+
+                        <strong>
+                            06h 24m
+                        </strong>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>
+                            RISK
+                        </span>
+
+                        <strong class="safe">
+                            LOW
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <div class="shipment-progress">
+
+                    <div class="progress-heading">
+
+                        <span>
+                            ROUTE PROGRESS
+                        </span>
+
+                        <strong>
+                            68%
+                        </strong>
+
+                    </div>
+
+                    <div class="shipment-progress-bar">
+
+                        <div></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="shipment-ai-message">
+
+                    <i class="fa-solid fa-brain"></i>
+
+                    <div>
+
+                        <strong>
+                            AI ROUTE ANALYSIS
+                        </strong>
+
+                        <p>
+                            Current route is operating normally.
+                            No immediate intervention required.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CHALLENGE
+========================================================= -->
+
+<section class="section challenge-section">
+
+    <div class="section-heading centered">
+
+        <span class="section-label">
+            02 / THE CHALLENGE
+        </span>
+
+        <h2>
+            Healthcare supply chains
+            <span>are fragile.</span>
+        </h2>
+
+        <p>
+
+            Disruptions don't wait for patients.
+            A delayed shipment today can become a shortage tomorrow.
+
+        </p>
+
+    </div>
+
+
+    <div class="challenge-grid">
+
+        <article class="challenge-card">
+
+            <div class="challenge-number">
+                01
+            </div>
+
+            <div class="challenge-icon">
+                <i class="fa-solid fa-truck-ramp-box"></i>
+            </div>
+
+            <h3>
+                Hidden disruptions
+            </h3>
+
+            <p>
+                Transport delays, border restrictions,
+                weather events and infrastructure failures
+                can remain invisible until inventory becomes critical.
+            </p>
+
+        </article>
+
+
+        <article class="challenge-card">
+
+            <div class="challenge-number">
+                02
+            </div>
+
+            <div class="challenge-icon">
+                <i class="fa-solid fa-chart-line"></i>
+            </div>
+
+            <h3>
+                Demand volatility
+            </h3>
+
+            <p>
+                Disease outbreaks and seasonal demand spikes
+                can rapidly overwhelm healthcare inventory.
+            </p>
+
+        </article>
+
+
+        <article class="challenge-card">
+
+            <div class="challenge-number">
+                03
+            </div>
+
+            <div class="challenge-icon">
+                <i class="fa-solid fa-link-slash"></i>
+            </div>
+
+            <h3>
+                Fragmented intelligence
+            </h3>
+
+            <p>
+                Hospitals, suppliers, warehouses and transport
+                systems often operate without a shared real-time picture.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     WORKFLOW
+========================================================= -->
+
+<section class="section workflow-section">
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                03 / HEALTHCHAIN WORKFLOW
+            </span>
+
+            <h2>
+                From disruption
+                <span>to resilience.</span>
+            </h2>
+
+        </div>
+
+        <p>
+
+            HealthChain 360 combines real-time network intelligence
+            with predictive AI to turn reactive healthcare logistics
+            into proactive resilience.
+
+        </p>
+
+    </div>
+
+
+    <div class="workflow">
+
+        <div class="workflow-line"></div>
+
+
+        <article class="workflow-step">
+
+            <div class="workflow-icon">
+                <i class="fa-solid fa-satellite-dish"></i>
+            </div>
+
+            <span>
+                01
+            </span>
+
+            <h3>
+                Sense
+            </h3>
+
+            <p>
+                Collect signals from hospitals,
+                warehouses, shipments and external events.
+            </p>
+
+        </article>
+
+
+        <article class="workflow-step">
+
+            <div class="workflow-icon">
+                <i class="fa-solid fa-brain"></i>
+            </div>
+
+            <span>
+                02
+            </span>
+
+            <h3>
+                Understand
+            </h3>
+
+            <p>
+                AI identifies patterns, anomalies,
+                bottlenecks and emerging supply risks.
+            </p>
+
+        </article>
+
+
+        <article class="workflow-step">
+
+            <div class="workflow-icon">
+                <i class="fa-solid fa-chart-area"></i>
+            </div>
+
+            <span>
+                03
+            </span>
+
+            <h3>
+                Predict
+            </h3>
+
+            <p>
+                Forecast demand spikes and inventory
+                shortages before they happen.
+            </p>
+
+        </article>
+
+
+        <article class="workflow-step">
+
+            <div class="workflow-icon">
+                <i class="fa-solid fa-route"></i>
+            </div>
+
+            <span>
+                04
+            </span>
+
+            <h3>
+                Orchestrate
+            </h3>
+
+            <p>
+                Generate optimized routes and
+                redistribution strategies.
+            </p>
+
+        </article>
+
+
+        <article class="workflow-step">
+
+            <div class="workflow-icon">
+                <i class="fa-solid fa-shield-heart"></i>
+            </div>
+
+            <span>
+                05
+            </span>
+
+            <h3>
+                Protect
+            </h3>
+
+            <p>
+                Reduce disruption impact and protect
+                continuity of patient care.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ANALYTICS
+========================================================= -->
+
+<section
+    class="section analytics-section"
+    id="analytics"
+>
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                04 / AI ANALYTICS
+            </span>
+
+            <h2>
+                See the disruption
+                <span>before it happens.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            Predictive intelligence transforms
+            raw supply-chain signals into actionable decisions.
+        </p>
+
+    </div>
+
+
+    <div class="analytics-grid">
+
+
+        <div class="analytics-card large">
+
+            <div class="analytics-card-header">
+
+                <div>
+
+                    <span>
+                        HEALTHCARE DEMAND FORECAST
+                    </span>
+
+                    <strong>
+                        NEXT 24 HOURS
+                    </strong>
+
+                </div>
+
+                <div class="forecast-value">
+                    +24%
+                </div>
+
+            </div>
+
+
+            <div class="forecast-chart">
+
+                <div class="chart-grid"></div>
+
+                <svg
+                    viewBox="0 0 800 260"
+                    preserveAspectRatio="none"
+                >
+
+                    <defs>
+
+                        <linearGradient
+                            id="chartGradient"
+                            x1="0"
+                            y1="0"
+                            x2="0"
+                            y2="1"
+                        >
+
+                            <stop
+                                offset="0%"
+                                stop-opacity=".35"
+                            />
+
+                            <stop
+                                offset="100%"
+                                stop-opacity="0"
+                            />
+
+                        </linearGradient>
+
+                    </defs>
+
+
+                    <path
+                        class="chart-fill"
+                        d="M0,220 C80,205 100,210 150,185 C210,150 230,175 290,155 C350,130 370,150 430,105 C490,65 520,90 570,75 C630,60 680,40 800,18 L800,260 L0,260 Z"
+                    />
+
+
+                    <path
+                        class="chart-line"
+                        d="M0,220 C80,205 100,210 150,185 C210,150 230,175 290,155 C350,130 370,150 430,105 C490,65 520,90 570,75 C630,60 680,40 800,18"
+                    />
+
+                </svg>
+
+
+                <div class="chart-labels">
+
+                    <span>
+                        NOW
+                    </span>
+
+                    <span>
+                        +6H
+                    </span>
+
+                    <span>
+                        +12H
+                    </span>
+
+                    <span>
+                        +18H
+                    </span>
+
+                    <span>
+                        +24H
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="analytics-card resilience-card">
+
+            <div class="analytics-card-header">
+
+                <div>
+
+                    <span>
+                        NETWORK RESILIENCE
+                    </span>
+
+                    <strong>
+                        CURRENT SCORE
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="resilience-score">
+
+                <div class="score-ring">
+
+                    <svg viewBox="0 0 120 120">
+
+                        <circle
+                            cx="60"
+                            cy="60"
+                            r="50"
+                            class="score-track"
+                        />
+
+                        <circle
+                            cx="60"
+                            cy="60"
+                            r="50"
+                            class="score-progress"
+                        />
+
+                    </svg>
+
+                    <div class="score-value">
+
+                        <strong>
+                            94.7
+                        </strong>
+
+                        <span>
+                            /100
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="score-status">
+
+                    <span>
+                        <i class="fa-solid fa-arrow-up"></i>
+                        +4.2%
+                    </span>
+
+                    <small>
+                        vs. previous week
+                    </small>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="analytics-card risk-card">
+
+            <div class="analytics-card-header">
+
+                <div>
+
+                    <span>
+                        INVENTORY RISK
+                    </span>
+
+                    <strong>
+                        GLOBAL DISTRIBUTION
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="risk-bars">
+
+                <div class="risk-row">
+
+                    <div>
+
+                        <span>
+                            LOW
+                        </span>
+
+                        <strong>
+                            68%
+                        </strong>
+
+                    </div>
+
+                    <div class="risk-bar">
+
+                        <span
+                            style="width:68%"
+                            class="low"
+                        ></span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="risk-row">
+
+                    <div>
+
+                        <span>
+                            MEDIUM
+                        </span>
+
+                        <strong>
+                            24%
+                        </strong>
+
+                    </div>
+
+                    <div class="risk-bar">
+
+                        <span
+                            style="width:24%"
+                            class="medium"
+                        ></span>
+
+                    </div>
+
+                </div>
+
+
+                <div class="risk-row">
+
+                    <div>
+
+                        <span>
+                            HIGH
+                        </span>
+
+                        <strong>
+                            8%
+                        </strong>
+
+                    </div>
+
+                    <div class="risk-bar">
+
+                        <span
+                            style="width:8%"
+                            class="high"
+                        ></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="analytics-card ai-recommendation">
+
+            <div class="ai-badge">
+
+                <i class="fa-solid fa-brain"></i>
+
+                AI RECOMMENDATION
+
+            </div>
+
+
+            <h3>
+                Reallocate vaccine inventory
+                before shortage threshold.
+            </h3>
+
+
+            <p>
+
+                Kolkata inventory is projected to fall
+                below the safe threshold within 18 hours.
+
+            </p>
+
+
+            <div class="ai-route">
+
+                <div>
+
+                    <span>
+                        FROM
+                    </span>
+
+                    <strong>
+                        Mumbai
+                    </strong>
+
+                </div>
+
+
+                <i class="fa-solid fa-arrow-right"></i>
+
+
+                <div>
+
+                    <span>
+                        TO
+                    </span>
+
+                    <strong>
+                        Kolkata
+                    </strong>
+
+                </div>
+
+
+                <div class="ai-units">
+
+                    <strong>
+                        420
+                    </strong>
+
+                    <span>
+                        units
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CRISIS SIMULATION
+========================================================= -->
+
+<section
+    class="section crisis-section"
+    id="crisis"
+>
+
+    <div class="crisis-content">
+
+        <div class="crisis-copy">
+
+            <span class="section-label">
+                05 / CRISIS SIMULATION
+            </span>
+
+            <h2>
+                What happens when
+                <span>the network breaks?</span>
+            </h2>
+
+            <p>
+
+                Don't wait for a crisis to discover your
+                vulnerabilities. Simulate disruptions and watch
+                the AI resilience engine respond in real time.
+
+            </p>
+
+
+            <button
+                class="btn btn-primary crisis-button"
+                id="crisisButton"
+            >
+
+                <i class="fa-solid fa-bolt"></i>
+
+                RUN CRISIS SIMULATION
+
+            </button>
+
+        </div>
+
+
+        <div class="simulation-panel">
+
+            <div class="simulation-header">
+
+                <div>
+
+                    <span>
+                        AI RESILIENCE ENGINE
+                    </span>
+
+                    <strong>
+                        SIMULATION TERMINAL
+                    </strong>
+
+                </div>
+
+
+                <div class="terminal-status">
+
+                    <span></span>
+
+                    READY
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="simulation-terminal"
+                id="simulationTerminal"
+            >
+
+                <div>
+
+                    <span class="terminal-time">
+                        09:41:56
+                    </span>
+
+                    <span class="terminal-green">
+                        SYSTEM
+                    </span>
+
+                    Network operating normally...
+
+                </div>
+
+
+                <div>
+
+                    <span class="terminal-time">
+                        09:41:58
+                    </span>
+
+                    <span class="terminal-blue">
+                        MONITOR
+                    </span>
+
+                    Monitoring 284 healthcare nodes...
+
+                </div>
+
+
+                <div>
+
+                    <span class="terminal-time">
+                        09:42:00
+                    </span>
+
+                    <span class="terminal-purple">
+                        AI ENGINE
+                    </span>
+
+                    Resilience engine standing by...
+
+                </div>
+
+            </div>
+
+
+            <div class="simulation-metrics">
+
+                <div>
+
+                    <span>
+                        NETWORK HEALTH
+                    </span>
+
+                    <strong>
+                        94.7%
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        ACTIVE ROUTES
+                    </span>
+
+                    <strong>
+                        142
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        RESPONSE TIME
+                    </span>
+
+                    <strong>
+                        1.8s
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     ALERTS
+========================================================= -->
+
+<section
+    class="section alerts-section"
+    id="alerts"
+>
+
+    <div class="section-heading">
+
+        <div>
+
+            <span class="section-label">
+                06 / LIVE ALERTS
+            </span>
+
+            <h2>
+                Intelligence that
+                <span>demands action.</span>
+            </h2>
+
+        </div>
+
+        <p>
+            AI-powered alerts surface the problems
+            that matter most, before they impact patient care.
+        </p>
+
+    </div>
+
+
+    <div class="alerts-grid">
+
+
+        <article class="alert-card critical">
+
+            <div class="alert-top">
+
+                <span class="alert-severity">
+                    CRITICAL
+                </span>
+
+                <span class="alert-time">
+                    2 min ago
+                </span>
+
+            </div>
+
+
+            <div class="alert-icon">
+
+                <i class="fa-solid fa-triangle-exclamation"></i>
+
+            </div>
+
+
+            <h3>
+                Vaccine inventory risk
+            </h3>
+
+
+            <p>
+                Kolkata central hospital inventory
+                projected below safe level in 18 hours.
+            </p>
+
+
+            <div class="alert-recommendation">
+
+                <i class="fa-solid fa-brain"></i>
+
+                <div>
+
+                    <strong>
+                        AI RECOMMENDATION
+                    </strong>
+
+                    <span>
+                        Redirect 420 units from Mumbai.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="alert-card warning">
+
+            <div class="alert-top">
+
+                <span class="alert-severity">
+                    HIGH
+                </span>
+
+                <span class="alert-time">
+                    8 min ago
+                </span>
+
+            </div>
+
+
+            <div class="alert-icon">
+
+                <i class="fa-solid fa-route"></i>
+
+            </div>
+
+
+            <h3>
+                Route congestion detected
+            </h3>
+
+
+            <p>
+                Mumbai → Delhi corridor experiencing
+                an estimated 42-minute delay.
+            </p>
+
+
+            <div class="alert-recommendation">
+
+                <i class="fa-solid fa-brain"></i>
+
+                <div>
+
+                    <strong>
+                        AI RECOMMENDATION
+                    </strong>
+
+                    <span>
+                        Activate Ahmedabad alternate route.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="alert-card info">
+
+            <div class="alert-top">
+
+                <span class="alert-severity">
+                    INFORMATION
+                </span>
+
+                <span class="alert-time">
+                    14 min ago
+                </span>
+
+            </div>
+
+
+            <div class="alert-icon">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+            </div>
+
+
+            <h3>
+                Demand spike predicted
+            </h3>
+
+
+            <p>
+                Respiratory medicine demand expected
+                to increase by 24% over the next 24 hours.
+            </p>
+
+
+            <div class="alert-recommendation">
+
+                <i class="fa-solid fa-brain"></i>
+
+                <div>
+
+                    <strong>
+                        AI RECOMMENDATION
+                    </strong>
+
+                    <span>
+                        Increase regional safety stock.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     IMPACT
+========================================================= -->
+
+<section class="section impact-section">
+
+    <div class="impact-heading">
+
+        <span class="section-label">
+            07 / IMPACT
+        </span>
+
+        <h2>
+            Built for
+            <span>continuity of care.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="impact-grid">
+
+        <div class="impact-card">
+
+            <strong>
+                31%
+            </strong>
+
+            <span>
+                REDUCTION IN
+                SHORTAGE RISK
+            </span>
+
+        </div>
+
+
+        <div class="impact-card">
+
+            <strong>
+                42%
+            </strong>
+
+            <span>
+                FASTER
+                RESPONSE TIME
+            </span>
+
+        </div>
+
+
+        <div class="impact-card">
+
+            <strong>
+                24/7
+            </strong>
+
+            <span>
+                CONTINUOUS
+                MONITORING
+            </span>
+
+        </div>
+
+
+        <div class="impact-card">
+
+            <strong>
+                94.7
+            </strong>
+
+            <span>
+                NETWORK
+                RESILIENCE SCORE
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CTA
+========================================================= -->
+
+<section class="final-cta">
+
+    <div class="cta-glow"></div>
+
+    <span class="section-label">
+        HEALTHCHAIN 360
+    </span>
+
+    <h2>
+        Resilience isn't
+        <span>reactive.</span>
+    </h2>
+
+    <p>
+        Predict the disruption.
+        Protect the supply.
+        Preserve the care.
+    </p>
+
+
+    <button
+        class="btn btn-primary"
+        id="finalSimulationBtn"
+    >
+
+        <i class="fa-solid fa-bolt"></i>
+
+        EXPERIENCE THE SIMULATION
+
+    </button>
+
+</section>
+
+
+</main>
+
+
+<!-- =========================================================
+     CRISIS OVERLAY
+========================================================= -->
+
+<div
+    class="crisis-overlay"
+    id="crisisOverlay"
+>
+
+    <div class="crisis-alert-box">
+
+        <div class="crisis-warning-icon">
+
+            <i class="fa-solid fa-triangle-exclamation"></i>
+
+        </div>
+
+
+        <span>
+            CRISIS SIMULATION
+        </span>
+
+
+        <h2>
+            SUPPLY ROUTE DISRUPTION
+        </h2>
+
+
+        <p id="crisisMessage">
+            AI is calculating the optimal response...
+        </p>
+
+
+        <div class="crisis-progress">
+
+            <div
+                id="crisisProgressBar"
+            ></div>
+
+        </div>
+
+
+        <strong id="crisisStatus">
+            ANALYZING NETWORK
+        </strong>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     SHIPMENT MODAL
+========================================================= -->
+
+<div
+    class="modal"
+    id="shipmentModal"
+>
+
+    <div class="modal-content">
+
+        <button
+            class="modal-close"
+            id="modalClose"
+        >
+
+            <i class="fa-solid fa-xmark"></i>
+
+        </button>
+
+
+        <div class="modal-icon">
+
+            <i class="fa-solid fa-truck-fast"></i>
+
+        </div>
+
+
+        <span class="modal-label">
+            LIVE SHIPMENT
+        </span>
+
+
+        <h2 id="modalRoute">
+            Mumbai → Kolkata
+        </h2>
+
+
+        <div class="modal-grid">
+
+            <div>
+
+                <span>
+                    CARGO
+                </span>
+
+                <strong id="modalCargo">
+                    Vaccines
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    UNITS
+                </span>
+
+                <strong id="modalUnits">
+                    420
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    ETA
+                </span>
+
+                <strong id="modalEta">
+                    06h 24m
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    RISK
+                </span>
+
+                <strong
+                    id="modalRisk"
+                    class="safe"
+                >
+                    LOW
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="modal-ai">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <div>
+
+                <strong>
+                    AI ROUTE ANALYSIS
+                </strong>
+
+                <p id="modalAiText">
+                    Current route is operating normally.
+                    No immediate intervention required.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer class="footer">
+
+    <div class="footer-inner">
+
+        <div class="footer-brand">
+
+            <div class="brand-icon">
+
+                <i class="fa-solid fa-heart-pulse"></i>
+
+            </div>
+
+            <div>
+
+                <strong>
+                    HEALTHCHAIN 360
+                </strong>
+
+                <span>
+                    SMART HEALTH • RESILIENT SUPPLY
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-center">
+
+            AI-powered healthcare
+            supply chain resilience.
+
+        </div>
+
+
+        <div class="footer-right">
+
+            <span>
+                BUILT FOR A HEALTHIER FUTURE
+            </span>
+
+            <span>
+                © 2026 HEALTHCHAIN 360
+            </span>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =========================================================
+     THREE.JS
+========================================================= -->
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"
+></script>
+
+
+<!-- =========================================================
+     MAIN JAVASCRIPT
+========================================================= -->
+
+<!-- =====================================================
+     HEALTHCHAIN AI CHATBOX
+===================================================== -->
+
+<div class="hc-ai-widget" id="hcAiWidget">
+
+    <!-- Floating AI Button -->
+    <button
+        class="hc-ai-launcher"
+        id="hcAiLauncher"
+        aria-label="Open HealthChain AI"
+        type="button"
+    >
+        <span class="hc-ai-pulse"></span>
+        <i class="fa-solid fa-robot"></i>
+    </button>
+
+
+    <!-- Chat Window -->
+    <div
+        class="hc-ai-chat"
+        id="hcAiChat"
+        aria-hidden="true"
+    >
+
+        <!-- Header -->
+        <div class="hc-ai-header">
+
+            <div class="hc-ai-title">
+
+                <div class="hc-ai-avatar">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <div>
+                    <strong>HealthChain AI</strong>
+
+                    <span>
+                        <i class="fa-solid fa-circle"></i>
+                        Network Intelligence
+                    </span>
+                </div>
+
+            </div>
+
+
+            <button
+                class="hc-ai-close"
+                id="hcAiClose"
+                type="button"
+                aria-label="Close chat"
+            >
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+        </div>
+
+
+        <!-- Status -->
+        <div class="hc-ai-status">
+
+            <span class="hc-status-dot"></span>
+
+            <span>
+                AI monitoring healthcare supply network
+            </span>
+
+        </div>
+
+
+        <!-- Messages -->
+        <div
+            class="hc-ai-messages"
+            id="hcAiMessages"
+            aria-live="polite"
+        >
+
+            <div class="hc-ai-message bot">
+
+                <div class="hc-message-avatar">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <div class="hc-message-content">
+
+                    <span class="hc-message-name">
+                        HealthChain AI
+                    </span>
+
+                    <p>
+                        Hello! I'm HealthChain AI.
+                        I can analyze healthcare supply risks,
+                        inventory, routes and crisis scenarios.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Quick Questions -->
+        <div class="hc-ai-quick">
+
+            <button
+                type="button"
+                class="hc-quick-btn"
+                data-question="What is the current risk in Kolkata?"
+            >
+                Kolkata Risk
+            </button>
+
+            <button
+                type="button"
+                class="hc-quick-btn"
+                data-question="Which healthcare location has the highest risk?"
+            >
+                Highest Risk
+            </button>
+
+            <button
+                type="button"
+                class="hc-quick-btn"
+                data-question="Explain the supply network."
+            >
+                Supply Network
+            </button>
+
+            <button
+                type="button"
+                class="hc-quick-btn"
+                data-question="What should we do during a supply crisis?"
+            >
+                Crisis Response
+            </button>
+
+        </div>
+
+
+        <!-- Input -->
+        <div class="hc-ai-input-area">
+
+            <input
+                type="text"
+                id="hcAiInput"
+                placeholder="Ask HealthChain AI..."
+                autocomplete="off"
+            >
+
+            <button
+                id="hcAiSend"
+                type="button"
+                aria-label="Send message"
+            >
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+
+        <div class="hc-ai-footer">
+            <i class="fa-solid fa-shield-halved"></i>
+            HealthChain Intelligence Engine
+        </div>
+
+    </div>
+
+</div>
+
+<!-- =====================================================
+     HEALTHCHAIN AI COMMAND CENTER
+===================================================== -->
+
+<section
+    id="ai-command-center"
+    class="ai-command-section"
+>
+
+    <div class="section-header">
+
+        <div>
+
+            <span class="section-eyebrow">
+                INTELLIGENT OPERATIONS
+            </span>
+
+            <h2>
+                AI COMMAND CENTER
+            </h2>
+
+            <p>
+                Real-time AI analysis of healthcare
+                supply-chain resilience.
+            </p>
+
+        </div>
+
+        <div class="ai-status-badge">
+            <span></span>
+            AI ONLINE
+        </div>
+
+    </div>
+
+
+    <div class="ai-command-grid">
+
+
+        <!-- THREAT -->
+
+        <div class="ai-command-card">
+
+            <span class="ai-card-label">
+                CURRENT THREAT
+            </span>
+
+            <strong
+                id="aiThreatValue"
+            >
+                LOW
+            </strong>
+
+            <small
+                id="aiThreatDescription"
+            >
+                Network operating normally
+            </small>
+
+        </div>
+
+
+        <!-- LOCATION -->
+
+        <div class="ai-command-card">
+
+            <span class="ai-card-label">
+                AFFECTED AREA
+            </span>
+
+            <strong
+                id="aiLocationValue"
+            >
+                NONE
+            </strong>
+
+            <small>
+                Active disruption zone
+            </small>
+
+        </div>
+
+
+        <!-- INVENTORY -->
+
+        <div class="ai-command-card">
+
+            <span class="ai-card-label">
+                INVENTORY RISK
+            </span>
+
+            <strong
+                id="aiInventoryValue"
+            >
+                STABLE
+            </strong>
+
+            <small>
+                Critical medical inventory
+            </small>
+
+        </div>
+
+
+        <!-- ROUTE -->
+
+        <div class="ai-command-card">
+
+            <span class="ai-card-label">
+                NETWORK RESPONSE
+            </span>
+
+            <strong
+                id="aiRouteValue"
+            >
+                MONITORING
+            </strong>
+
+            <small>
+                AI network response
+            </small>
+
+        </div>
+
+    </div>
+
+
+    <!-- AI RECOMMENDATION -->
+
+    <div class="ai-recommendation-panel">
+
+        <div class="ai-recommendation-icon">
+            🧠
+        </div>
+
+        <div class="ai-recommendation-content">
+
+            <span>
+                AI RECOMMENDATION
+            </span>
+
+            <p
+                id="aiRecommendationText"
+            >
+                Continue monitoring the
+                healthcare supply network.
+            </p>
+
+        </div>
+
+        <button
+            id="aiAnalyzeButton"
+            class="ai-analyze-btn"
+        >
+
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+            ANALYZE CRISIS
+
+        </button>
+
+    </div>
+
+</section>
+
+<script src="app.js"></script>
+
+
+</body>
+</html>
