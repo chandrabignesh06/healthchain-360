@@ -1,4 +1,4 @@
-# 🏥 HealthChain 360
+#  HealthChain 360
 
 ### AI-Powered Healthcare Supply Chain Resilience & Digital Twin Platform
 
@@ -13,7 +13,7 @@
 
 ---
 
-# 📖 Overview
+#  Overview
 
 HealthChain 360 is an AI-powered healthcare supply chain resilience platform designed to monitor, visualize, simulate, and respond to disruptions across critical healthcare supply networks.
 
@@ -27,9 +27,9 @@ Google Gemini AI is integrated into the platform to provide contextual answers, 
 
 ---
 
-# ✨ Features
+#  Features
 
-## 🌍 Digital Twin
+##  Digital Twin
 
 - Interactive 3D Earth Visualization
 - Interactive Globe Navigation
@@ -43,7 +43,7 @@ Google Gemini AI is integrated into the platform to provide contextual answers, 
 - Visual Route Highlighting
 - Network Activity Visualization
 
-## 🏠 Command Dashboard
+##  Command Dashboard
 
 - Real-Time Network Monitoring
 - Healthcare Supply-Chain Status
@@ -58,7 +58,7 @@ Google Gemini AI is integrated into the platform to provide contextual answers, 
 - Network Health Indicators
 - Crisis State Monitoring
 
-## 🚨 Crisis Simulation
+##  Crisis Simulation
 
 - Interactive Crisis Simulation
 - Crisis Detection
@@ -86,7 +86,7 @@ NETWORK RECOVERY
 ↓
 CRISIS RESOLVED
 
-## 🧠 AI Intelligence
+##  AI Intelligence
 
 - Google Gemini AI
 - Real-Time Crisis Analysis
@@ -99,7 +99,7 @@ CRISIS RESOLVED
 - AI-Assisted Rerouting
 - Network State Analysis
 
-## 🤖 AI Chatbot
+##  AI Chatbot
 
 - Powered by Google Gemini AI
 - Real-Time HealthChain Status Analysis
@@ -111,7 +111,7 @@ CRISIS RESOLVED
 - Natural Language Interaction
 - Simulation-Aware Responses
 
-## 🔄 AI Rerouting
+##  AI Rerouting
 
 - Emergency Route Analysis
 - Alternate Route Recommendation
@@ -121,7 +121,7 @@ CRISIS RESOLVED
 - Digital Twin Route Updates
 - Network Recovery Monitoring
 
-## 🟢 Recovery
+##  Recovery
 
 - Network Stabilization
 - Inventory Stabilization
@@ -132,7 +132,7 @@ CRISIS RESOLVED
 
 ---
 
-# 🚀 Technologies Used
+#  Technologies Used
 
 ## Frontend
 
@@ -180,7 +180,7 @@ CRISIS RESOLVED
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 HEALCHAIN/
@@ -202,7 +202,7 @@ HEALCHAIN/
 ```
 
 ---
-# 🚀 Installation
+#  Installation
 
 ### Clone the repository
 
@@ -236,39 +236,39 @@ npm start
 
 ---
 
-# 📷 Preview
+#  Preview
 
-## 🌍 Digital Twin
+##  Digital Twin
 
 Interactive 3D healthcare supply-chain network visualization with supply hubs, facilities, routes, and dynamic network activity.
 
-## 🏠 Command Dashboard
+##  Command Dashboard
 
 Real-time healthcare supply-chain monitoring dashboard with network status, risk indicators, crisis progress, and AI recommendations.
 
-## 🚨 Crisis Simulation
+##  Crisis Simulation
 
 Interactive healthcare supply-chain crisis simulation showing crisis detection, risk escalation, supply pressure, AI analysis, emergency rerouting, and network recovery.
 
-## 🧠 AI Command Center
+##  AI Command Center
 
 AI-powered operational intelligence panel providing crisis analysis, network insights, and recommended actions.
 
-## 🤖 AI Assistant
+##  AI Assistant
 
 Google Gemini-powered chatbot capable of answering questions about the current HealthChain network and crisis state.
 
-## 🔄 AI Rerouting
+##  AI Rerouting
 
 AI-assisted emergency rerouting that recommends alternate supply routes during critical network conditions.
 
-## 🟢 Network Recovery
+##  Network Recovery
 
 Recovery monitoring showing network stabilization, route recovery, and crisis resolution.
 
 ---
 
-# 🌟 Future Improvements
+#  Future Improvements
 
 - Real-Time Healthcare Supply Chain API Integration
 - Real-Time Hospital Inventory Integration
@@ -294,7 +294,7 @@ Recovery monitoring showing network stabilization, route recovery, and crisis re
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Contributions are welcome.
 
@@ -306,13 +306,13 @@ Contributions are welcome.
 
 ---
 
-# 📄 License
+#  License
 
 This project is licensed under the MIT License.
 
 ---
 
-# 👨‍💻 Team
+#  Team
 
 **Project:** HealthChain 360
 
@@ -325,14 +325,14 @@ This project is licensed under the MIT License.
 - Avishek Kumar Dutta
 - Sreejita Ghatak
 
-# 👨‍💻 Author
+#  Author
 
 **Bignesh Chandra**
 
 Computer Science & Engineering (Data Science)  
 Haldia Institute of Technology
 
-📧 Email: chandrabignesh0608@gmail.com
+ Email: chandrabignesh0608@gmail.com
 
 🔗 GitHub: https://github.com/chandrabignesh06
 
@@ -340,7 +340,7 @@ Haldia Institute of Technology
 
 🔗 LinkedIn: https://www.linkedin.com/in/bignesh-chandra-3a064b3a7
 
-# ⭐ Support
+#  Support
 
 If you like this project, please consider giving it a ⭐ on GitHub.
 
