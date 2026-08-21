@@ -154,6 +154,8 @@ let particleEnabled = true;
 
 let glowEnabled = true;
 
+let lastAIStage = -1;
+
 
 /* =========================================================
    DIGITAL TWIN VARIABLES
@@ -4016,6 +4018,31 @@ function initializeButtons() {
 
 
     /* =====================================================
+       EXPERIENCE THE SIMULATION — CTA BUTTON
+    ===================================================== */
+
+    const finalSimulationBtn =
+        document.getElementById(
+            "finalSimulationBtn"
+        );
+
+    if (finalSimulationBtn) {
+
+        finalSimulationBtn.addEventListener(
+            "click",
+            event => {
+
+                event.preventDefault();
+
+                runFullCrisisSimulation();
+
+            }
+        );
+
+    }
+
+
+    /* =====================================================
        GLOBAL VIEW
     ===================================================== */
 
@@ -7651,7 +7678,6 @@ function showLiveAIBriefing(
    HEALTHCHAIN LIVE AI INTELLIGENCE
 ========================================================= */
 
-let lastAIStage = -1;
 let aiInsightBusy = false;
 
 

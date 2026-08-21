@@ -183,7 +183,7 @@ CRISIS RESOLVED
 #  Project Structure
 
 ```text
-HEALCHAIN/
+healthchain-360/
 │
 ├── index.html
 ├── style.css
@@ -207,13 +207,13 @@ HEALCHAIN/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/chandrabignesh06/CrimeVision-AI.git
+git clone https://github.com/chandrabignesh06/healthchain-360.git
 ```
 
 ### Go to the project folder
 
 ```bash
-cd CrimeVision-AI
+cd healthchain-360
 ```
 
 ### Install dependencies
@@ -332,20 +332,17 @@ This project is licensed under the MIT License.
 Computer Science & Engineering (Data Science)  
 Haldia Institute of Technology
 
- Email: chandrabignesh0608@gmail.com
+ Email: chandrabignesh0608@gmail.com  
+🔗 GitHub: https://github.com/chandrabignesh06  
+🔗 LinkedIn: https://www.linkedin.com/in/bignesh-chandra-3a064b3a7  
 
- **Vidya Das**
+**Vidya Das**
 
- Computer Science & Engineering (Data Science)  
- Haldia Institute of Technology
+Computer Science & Engineering (Data Science)  
+Haldia Institute of Technology
 
-  Email: kumari.vidya2007@gmail.com
-
-🔗 GitHub: https://github.com/chandrabignesh06
-
-🔗 Website: https://crimevision-ai.netlify.app/  
-
-🔗 LinkedIn: https://www.linkedin.com/in/bignesh-chandra-3a064b3a7
+ Email: kumari.vidya2007@gmail.com  
+🔗 GitHub: https://github.com/vidya0110  
 
 #  Support
 
